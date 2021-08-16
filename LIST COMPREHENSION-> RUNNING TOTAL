@@ -1,0 +1,4 @@
+x = input()
+y = [int(i) for i in x]
+z = [sum(y[:i]) for i in range(1, len(y) + 1)]
+print(z)
